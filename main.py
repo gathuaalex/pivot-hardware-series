@@ -5,7 +5,7 @@ import utime
 import gc
 gc.collect()
 
-from microdot_asgi import Microdot,Response
+from lib.microdot_asgi import Microdot,Response
 from html import main_page
 
 ssid = 'CISCO ACADEMY'

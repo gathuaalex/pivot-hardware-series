@@ -1,10 +1,10 @@
 import uasyncio as asyncio
 import os
 #import signal
-from microdot_asyncio import *  # noqa: F401, F403
-from microdot_asyncio import Microdot as BaseMicrodot
-from microdot_asyncio import Request
-from microdot import NoCaseDict
+from lib.microdot_asyncio import *  # noqa: F401, F403
+from lib.microdot_asyncio import Microdot as BaseMicrodot
+from lib.microdot_asyncio import Request
+from lib.microdot import NoCaseDict
 
 
 class _BodyStream:  # pragma: no cover
